@@ -43,7 +43,22 @@ path.join(__dirname, "query_engine-windows.dll.node")
 path.join(process.cwd(), "generated/prisma/query_engine-windows.dll.node")
 
 /**
- * Model user
+ * Model User
  * 
  */
-export type user = Prisma.userModel
+export type User = Prisma.UserModel
+/**
+ * Model Admin
+ * 
+ */
+export type Admin = Prisma.AdminModel
+/**
+ * Model Doctor
+ * 
+ */
+export type Doctor = Prisma.DoctorModel
+/**
+ * Model Patient
+ * 
+ */
+export type Patient = Prisma.PatientModel
